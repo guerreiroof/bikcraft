@@ -10,6 +10,10 @@
   align-items: center;
 }
 
+#seguros .seguros {
+  padding-top: 0px;
+}
+
 .seguros h2 {
   grid-column: 1/-1;
 }
@@ -19,6 +23,7 @@
   padding: 32px 32px 32px 60px;
   display: grid;
   grid-template-columns: 1fr auto;
+  border-radius: 4px;
 }
 
 .seguros-item h3 {
@@ -62,4 +67,33 @@
   .seguros {
     grid-template-columns: 1fr;
   }
+}
+
+.nossas-bg {
+  background: var(--cor-12);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.nossas-titulo {
+  margin-bottom: 92px;
+}
+
+.nossas-conteudo {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.nossas-conteudo img {
+  width: 32px;
+  height: 32px;
+  margin-bottom: 8px;
+}
+
+.nossas-conteudo h3 {
+  margin-bottom: 8px;
+}
+.nossas-conteudo p {
+  max-width: 35ch;
 }
